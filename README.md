@@ -1,10 +1,15 @@
-# Python-String-Reverser
-# Define the original string
-original_string = "GitHub is fun!"
+def reverse_string(text):
+    """Reverses the input string using Python's slicing method."""
+    return text[::-1]
 
-# Reverse the string using the slicing technique [start:stop:step] with a step of -1
-reversed_string = original_string[::-1]
+# Example 1: Original string
+original_string_1 = "GitHub is fun!"
+reversed_string_1 = reverse_string(original_string_1)
 
-# Print both the original and reversed strings
-print(f"Original String: {original_string}")
-print(f"Reversed String: {reversed_string}")
+# Example 2: A different test string
+original_string_2 = "Hello World"
+reversed_string_2 = reverse_string(original_string_2)
+
+# Print the results for both examples
+print(f"Example 1: Original: '{original_string_1}' -> Reversed: '{reversed_string_1}'")
+print(f"Example 2: Original: '{original_string_2}' -> Reversed: '{reversed_string_2}'")
