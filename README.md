@@ -6,7 +6,6 @@ def reverse_string(text):
 original_string_1 = "GitHub is fun!"
 reversed_string_1 = reverse_string(original_string_1)
 
-# Example 2: A different test string
 original_string_2 = "Hello World"
 reversed_string_2 = reverse_string(original_string_2)
 
