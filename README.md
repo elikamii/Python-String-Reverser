@@ -12,4 +12,4 @@ reversed_string_2 = reverse_string(original_string_2)
 
 # Print the results for both examples
 print(f"Example 1: Original: '{original_string_1}' -> Reversed: '{reversed_string_1}'")
-print(f"Example 2: Original: '{original_string_2}' -> Reversed: '{reversed_string_2}'")
+print(f"Example 2: Original: '{original_string_2}' -> Reversed: '{}'")
